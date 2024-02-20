@@ -1,0 +1,452 @@
+.nav{
+    position: relative;
+    background-color: white;
+    height: 100px;
+}
+
+.circle{
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #7ED957;
+}
+
+.b{
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    font-size: 40px;
+    font-family: "Arimo", sans-serif;
+}
+
+.c{
+    position: absolute;
+    left: 80%;
+    top: 20%;
+    font-size: 20px;
+    font-family: "Arimo", sans-serif;
+}
+
+/* IMAGEN DEBAJO */
+
+.imagecontainer{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    
+}
+
+
+.textimage1{
+    position: absolute;
+    background-color: #00BF63;
+    top: 250px;
+    left: 100px;
+    height: 50px;
+    width: 300px;
+
+}
+
+.parrafo1{
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    font-size: 40px;
+    text-align: center;    
+    padding: 0%;
+    font-weight: bolder;
+    color: white;
+    font-family: "Arimo", sans-serif;
+}
+
+.textimage2{
+    position: absolute;
+    background-color: #00BF63;
+    top: 310px;
+    left: 100px;
+    height: 50px;
+    width: 600px;
+
+}
+
+.parrafo2{
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    font-size: 40px;
+    text-align: center;    
+    padding: 0%;
+    font-weight: bolder;
+    color: white;
+    font-family: "Arimo", sans-serif;
+}
+
+            
+.textimage3{
+    position: absolute;
+    background-color: #00BF63;
+    top: 370px;
+    left: 100px;
+    height: 50px;
+    width: 400px;
+
+}
+
+.parrafo3{
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    font-size: 40px;
+    text-align: center;    
+    padding: 0%;
+    font-weight: bolder;
+    color: white;
+    font-family: "Arimo", sans-serif;
+}
+
+
+
+/* LETRAS NEGRAS */
+
+.textimage4{
+    position: absolute;
+    background-color: black;
+    top: 480px;
+    left: 100px;
+    height: 30px;
+    width: 450px;
+
+}
+
+.parrafo4{
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    font-size: 20px;
+    text-align: center;    
+    padding: 0%;
+    font-weight: bolder;
+    color: white;
+    font-family: "Arimo", sans-serif;
+}
+
+.textimage5{
+    position: absolute;
+    background-color: black;
+    top: 520px;
+    left: 100px;
+    height: 30px;
+    width: 220px;
+
+}
+
+.parrafo5{
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    font-size: 20px;
+    text-align: center;    
+    padding: 0%;
+    font-weight: bolder;
+    color: white;
+    font-family: "Arimo", sans-serif;
+}
+
+
+/* LETRAS DE ABAJO IMAGEN */
+
+.container2{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-color: white;
+}
+
+.text1{
+    position: absolute;
+    background-color: white;
+    top: 70px;
+    left: 100px;
+    height: 80px;
+    width: 660px;
+    font-family: "Arimo", sans-serif;
+
+}
+
+
+.subparrafo1{
+    position: absolute;
+    top: -25px;
+    left: 10px;
+    font-size: 45px;
+    text-align: center;    
+    padding: 0%;
+    font-weight: bolder;
+    color: black;
+}
+
+.text2{
+    position: absolute;
+    background-color: white;
+    top: 160px;
+    left: 100px;
+    height: 40px;
+    width: 780px;
+    font-family: "Arimo", sans-serif;
+
+}
+
+.subparrafo2{
+    position: absolute;
+    top: -25px;
+    left: 10px;
+    font-size: 25px;
+    text-align: left;    
+    padding: 0%;
+    color: black;
+}
+
+
+/* IMAGENES PARTE 2 */
+.container {
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr; /* Divide el contenedor en tres columnas iguales */
+    grid-gap: 20px; /* Espacio entre las columnas */
+  }
+  
+  .item {
+    text-align: center;
+    justify-content: center; /* Centra el contenido de cada item */
+  }
+  
+  .titulo {
+    margin-top: 10px; /* Espacio entre imagen y título */
+  }
+  
+  .descripcion {
+    margin-top: 10px; /* Espacio entre título y descripción */
+  }
+  
+  /* FOOTER */
+  
+  footer{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    background-color: #00BF63;
+    height: 80px;
+  }
+
+  .footercontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-family: "Arimo", sans-serif;
+  }
+
+  .left, .right, .center{
+    padding: 10px;
+    color: #EEEEEE;
+  }
+  
+  #logo1{
+    margin: 10px;
+  }
+
+  h2,p{
+    font-family: "Arimo", sans-serif;
+  }
+
+
+
+  @media (max-width:767px){
+
+
+    .imagecontainer{
+        position: relative;
+        width: 100%;
+        height: 400px;
+    }
+
+    .b{
+        position: absolute;
+        left: 15%;
+        top: 35%;
+        font-size: 30px;
+        font-family: "Arimo", sans-serif; 
+    }
+
+    .c{
+    position: absolute;
+    left: 55%;
+    top: 25%;
+    font-size: 20px;
+    font-family: "Arimo", sans-serif;
+        
+    }
+
+    .textimage1{
+        position: absolute;
+        background-color: #00BF63;
+        top: 220px;
+        left: 30px;
+        height: 35px;
+        width: 300px;
+    
+    }
+    
+    .parrafo1{
+        position: absolute;
+        top: -30px;
+        left: 40px;
+        font-size: 30px;
+        text-align: right;    
+        padding: 0%;
+        font-weight: bolder;
+        color: white;
+        font-family: "Arimo", sans-serif;
+    }
+
+    .textimage2{
+        position: absolute;
+        background-color: #00BF63;
+        top: 260px;
+        left: 30px;
+        height: 35px;
+        width: 450px;
+    
+    }
+    
+    .parrafo2{
+        position: absolute;
+        top: -30px;
+        left: 40px;
+        font-size: 30px;
+        text-align: right;    
+        padding: 0%;
+        font-weight: bolder;
+        color: white;
+        font-family: "Arimo", sans-serif;
+    }
+    
+    
+    .textimage3{
+        position: absolute;
+        background-color: #00BF63;
+        top: 305px;
+        left: 30px;
+        height: 35px;
+        width: 450px;
+    
+    }
+    
+    .parrafo3{
+        position: absolute;
+        top: -30px;
+        left: 40px;
+        font-size: 30px;
+        text-align: right;    
+        padding: 0%;
+        font-weight: bolder;
+        color: white;
+        font-family: "Arimo", sans-serif;
+    }
+
+    .textimage4{
+        position: absolute;
+        background-color: black;
+        top: 380px;
+        left: 30px;
+        height: 30px;
+        width: 450px;
+    
+    }
+    
+    .parrafo4{
+        position: absolute;
+        top: -15px;
+        left: 10px;
+        font-size: 18px;
+        text-align: right;    
+        padding: 0%;
+        font-weight: bolder;
+        color: white;
+        font-family: "Arimo", sans-serif;
+    }
+    
+    .textimage5{
+        position: absolute;
+        background-color: black;
+        top: 420px;
+        left: 30px;
+        height: 30px;
+        width: 250px;
+    
+    }
+    
+    .parrafo5{
+        position: absolute;
+        top: -15px;
+        left: 10px;
+        font-size: 18px;
+        text-align: right;    
+        padding: 0%;
+        font-weight: bolder;
+        color: white;
+        font-family: "Arimo", sans-serif;
+    }
+    
+
+    .text1{
+        position: absolute;
+        background-color: white;
+        top: 70px;
+        left: 30px;
+        height: 80px;
+        width: 660px;
+        font-family: "Arimo", sans-serif;
+    
+    }
+    
+    
+    .subparrafo1{
+        position: absolute;
+        top: -25px;
+        left: 10px;
+        font-size: 35px;
+        text-align: center;    
+        padding: 0%;
+        font-weight: bolder;
+        color: black;
+    }
+    
+
+    .text2{
+        position: absolute;
+        background-color: white;
+        top: 160px;
+        left: 20px;
+        height: 40px;
+        width: 600px;
+        font-family: "Arimo", sans-serif;
+    
+    }
+    
+    .subparrafo2{
+        position: absolute;
+        top: -25px;
+        left: 10px;
+        font-size: 20px;
+        text-align: left;    
+        padding: 0%;
+        color: black;
+    }
+    
+    
+  }

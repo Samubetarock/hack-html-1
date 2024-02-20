@@ -1,0 +1,173 @@
+.line{
+    width: 100px;
+    height: 10px;
+    background-color: black;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+
+
+.alpha{
+    font-family: "Ruda", sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+    font-weight: 800;
+}
+
+.beta{
+    font-family: "Ruda", sans-serif;
+    color: #B88940;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 800;
+    padding-top: 0;
+}
+.alpha2{
+    font-family: "Catamaran", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 800;
+    margin-bottom: 100px;
+}
+.beta2{
+    font-family: "Open Sans", sans-serif;
+    color: #B88940;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+    padding-top: 0;
+    margin-top: 100px;
+}
+
+.charlie{
+    font-family: "Ruda", sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 0;
+}
+
+
+.delta{
+    font-family: "Catamaran", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+.eco{
+    width: 100%;
+    height: 30px;
+    background-color: #FFBD59;
+    margin-top: 10%;
+}
+
+.foxtrot{
+    width: 100%;
+    height: 30px;
+    background-color: #FFBD59;
+    margin-top: 6%;
+}
+
+.golf{
+    width: 100%;
+    height: 30px;
+    background-color: #FFBD59;
+    margin-top: 6%;
+}
+
+.hotel{
+    width: 100%;
+    height: 30px;
+    background-color: #FFBD59;
+    margin-top: 5%;
+}
+
+.container{
+    position: relative;
+}
+
+
+.imagen1{
+    position: absolute;
+    top:1% ;
+    left: 20%;
+    height: 300px;
+    width: 140px;
+    margin: -40px;
+} 
+
+
+.imagen2{
+    position: absolute;
+    top:1% ;
+    left: 48%;
+    height: 300px;
+    width: 140px;
+    margin: -40px;
+} 
+
+.imagen3{
+    position: absolute;
+    top:1% ;
+    left: 75%;
+    height: 300px;
+    width: 140px;
+    margin: -40px;
+} 
+
+@media (min-width:1024px) {
+    .foxtrot{
+        width: 100%;
+        height: 30px;
+        background-color: #FFBD59;
+        margin-top: 3%;
+    }
+    .golf{
+        width: 100%;
+        height: 30px;
+        background-color: #FFBD59;
+        margin-top: 3%;
+    }
+
+    .hotel{
+        width: 100%;
+        height: 30px;
+        background-color: #FFBD59;
+        margin-top: 3%;
+    }
+
+    
+}
+
+ 
+@media (max-width:1024px){
+    
+.descripcion {
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 50px;
+    font-family: "Ruda", sans-serif;
+    font-weight: bold;
+  }
+} 
+
+
+@media (min-width:1024px){
+    
+.descripcion {
+    display: inline-block;
+    margin-left: 260px;
+    margin-top: 50px;
+    font-family: "Ruda", sans-serif;
+    font-weight: bold;
+  }
+} 
+
